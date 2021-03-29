@@ -25,7 +25,7 @@ requirements:
     - cf_units
     - clize
     - dask
-    - iris >=2.2
+    - iris >=2.2, <3.0
     - netCDF4
     - numpy
     - python-dateutil
