@@ -30,7 +30,7 @@ requirements:
     - numpy
     - python-dateutil
     - python-stratify
-    - pytz ==2020.5
+    - pytz
     - scipy >=1.3.0, <1.4.0
     - sigtools
     - sphinx
