@@ -1,18 +1,18 @@
 {% set name = "improver" %}
-{% set version = "0.18.0" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: https://github.com/metoppv/improver/archive/v{{ version }}.tar.gz
-  sha256: ec0908e10646ef4998125a0d078a217c32489049597602dc463831d7fcc1d9e0
+  url: https://github.com/metoppv/improver/archive/{{ version }}.tar.gz
+  sha256: aba11541bad6b0226f966269db63d5f9d45f626fbc7ccbd782f3c6bd3cce92ae
 
 build:
   noarch: python
   number: 0
-  script: "python -m pip install . -vv"
+  script: python -m pip install . -vv
 
 requirements:
   host:
@@ -44,8 +44,8 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'IMPROVER is a library of algorithms for meteorological post-processing and verification.'
-  description: 'IMPROVER is a library of algorithms for meteorological post-processing and verification.'
+  summary: IMPROVER is a library of algorithms for meteorological post-processing and verification.
+  description: IMPROVER is a library of algorithms for meteorological post-processing and verification.
   doc_url: https://improver.readthedocs.io/en/latest/
   dev_url: https://github.com/metoppv/improver
 
