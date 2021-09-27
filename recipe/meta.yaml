@@ -16,22 +16,22 @@ build:
 
 requirements:
   host:
-    - python>=3.7
+    - python >=3.7
     - pip
   run:
-    - python>=3.7
+    - python >=3.7
     - cartopy
-    - cftime<1.5
-    - cf-units=2.1.5
+    - cftime <1.5
+    - cf-units =2.1.5
     - clize
     - dask
-    - iris>=3.0,<3.1
+    - iris >=3.0,<3.1
     - netCDF4
-    - numpy<1.21
+    - numpy <1.21
     - python-dateutil
     - python-stratify
     - pytz
-    - scipy=1.6
+    - scipy =1.6
     - sigtools
     - sphinx
 
