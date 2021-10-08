@@ -36,16 +36,10 @@ requirements:
     - sphinx
 
 test:
-  requires:
-    - pytest
-    - mock
-    - filelock
   commands:
     - improver --help
-    - pytest --pyargs improver_tests
   imports:
     - improver
-    - improver_tests
 
 about:
   home: https://github.com/metoppv/improver
