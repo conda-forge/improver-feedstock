@@ -11,13 +11,16 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
+  script_env:
+    - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   script: python -m pip install . -vv
 
 requirements:
   host:
     - python >=3.6
     - pip
+    - setuptools_scm
   run:
     - python >=3.6
     - cartopy <0.20
