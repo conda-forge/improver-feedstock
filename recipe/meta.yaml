@@ -1,5 +1,5 @@
 {% set name = "improver" %}
-{% set version = "1.3.3" %}
+{% set version = "1.3.4" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/metoppv/improver/archive/{{ version }}.tar.gz
-  sha256: 9f6a602f97311cec38161c2a07124067b6f43dbaf974666916322539c4b86201
+  sha256: 8df4ab37894ea988d6d8a9830e72bb4ac07679d2296f9a076f390509ede51556
 
 build:
   noarch: python
