@@ -1,11 +1,11 @@
-About improver
-==============
+About improver-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/improver-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/metoppv/improver
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/improver-feedstock/blob/main/LICENSE.txt)
 
 Summary: IMPROVER is a library of algorithms for meteorological post-processing and verification.
 
