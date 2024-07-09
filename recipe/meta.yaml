@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   script: python -m pip install . -vv
@@ -34,6 +34,8 @@ requirements:
     - scipy
     - sigtools
     - sphinx
+    - pandas <=2.0.0  # Pinned dependencies of dependencies - https://github.com/metoppv/improver/pull/2011
+    - pillow <=10.0.1  # Pinned dependencies of dependencies - https://github.com/metoppv/improver/pull/2011
 
 test:
   commands:
