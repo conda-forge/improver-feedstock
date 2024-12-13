@@ -18,11 +18,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
+    - setuptools
     - setuptools_scm
   run:
-    - python >=3.6
+    - python >={{ python_min }}
+    - setuptools
     - cartopy <0.20
     - cftime <1.5
     - cf-units =2.1.5
@@ -38,6 +40,8 @@ requirements:
     - pillow <=10.0.1  # Pinned dependencies of dependencies - https://github.com/metoppv/improver/pull/2011
 
 test:
+  requires:
+    - python {{ python_min }}
   commands:
     - improver --help
   imports:
