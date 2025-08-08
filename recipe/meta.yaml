@@ -26,9 +26,9 @@ requirements:
     - python >={{ python_min }}
     - cartopy
     - clize
-    - iris=3.12
-    - numpy=2.2
-    - scipy=1.15
+    - iris =3.12
+    - numpy =2.2
+    - scipy =1.15
     - sphinx
     - pandas
 
