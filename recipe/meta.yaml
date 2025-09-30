@@ -1,5 +1,6 @@
 {% set name = "improver" %}
 {% set version = "1.16.1" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name }}
