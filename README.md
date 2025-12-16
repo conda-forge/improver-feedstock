@@ -151,7 +151,6 @@ Feedstock Maintainers
 
 * [@MoseleyS](https://github.com/MoseleyS/)
 * [@PaulAbernethy](https://github.com/PaulAbernethy/)
-* [@benfitzpatrick](https://github.com/benfitzpatrick/)
 * [@cpelley](https://github.com/cpelley/)
 * [@dmentipl](https://github.com/dmentipl/)
 * [@tjtg](https://github.com/tjtg/)
